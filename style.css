@@ -1,0 +1,38 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: bisque;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+}
+
+#panNo:focus{
+    background-color:black;
+    color: aliceblue;
+    font-weight: 700;
+}
+button{
+    background-color: green;
+    color: aliceblue;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: brown;
+}
